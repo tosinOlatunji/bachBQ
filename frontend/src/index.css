@@ -209,22 +209,11 @@ h1 {
   margin: 0;
 }
 
-/* input,
-/* select, */
-/* button {
-  width: 50%;
-  max-width: 50%;
-  margin-left: 50%;
-  display: block;
-  padding: 12px 20px;
-  border-radius: 8px;
-} */
 */ .form-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: #ffffff; */
   font-family: sans-serif;
 }
 
