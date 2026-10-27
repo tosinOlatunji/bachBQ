@@ -10,7 +10,7 @@ const cors = require("cors");
 // built-In middleware
 app.use(
   cors({
-    origin: ["https://bach-bq-kappa.vercel.app"],
+    origin: ["https://bachbq.onrender.com"],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
