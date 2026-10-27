@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const Student = require("./model/Student");
 
-const PORT = 2468;
+const PORT = process.env.PORT || 2468;
 const app = express();
 const cors = require("cors");
 
