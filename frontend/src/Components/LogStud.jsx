@@ -11,7 +11,7 @@ function LogStud() {
   const Log = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://o-tosin.onrender.com/login", {
+      const res = await axios.post("https://bachbq.onrender.com/login", {
         name,
         email,
         level: Number(level),

@@ -19,7 +19,7 @@ function updateStud() {
   useEffect(() => {
     const getStudent = async () => {
       try {
-        const res = await axios.get(`https://o-tosin.onrender.com/${id}`);
+        const res = await axios.get(`https://bachbq.onrender.com/${id}`);
         setFormData(res.data);
       } catch (err) {
         console.error(err.message);
@@ -37,7 +37,7 @@ function updateStud() {
     e.preventDefault();
     try {
       const res = await axios.put(
-        `https://o-tosin.onrender.com/${id}`,
+        `https://bachbq.onrender.com/${id}`,
         formData,
       );
       alert("Student updated successfully!");

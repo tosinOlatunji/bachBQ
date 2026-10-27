@@ -17,7 +17,7 @@ function View() {
   useEffect(() => {
     const fetchStudents = async () => {
       try {
-        const res = await axios.get("https://o-tosin.onrender.com/");
+        const res = await axios.get("https://bachbq.onrender.com/");
         setStudents(res.data);
       } catch (err) {
         console.error(err.message);
@@ -33,7 +33,7 @@ function View() {
   const handleDelete = async (id) => {
     if (window.confirm("Are you sure you want to delete this")) {
       try {
-        await axios.delete(`https://o-tosin.onrender.com/${id}`);
+        await axios.delete(`https://bachbq.onrender.com/${id}`);
         setStudents(students.filter((student) => student._id !== id));
       } catch (err) {
         console.error("Error deleting student:", err);

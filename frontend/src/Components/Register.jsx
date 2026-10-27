@@ -15,7 +15,7 @@ function Register() {
   const onRegister = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://o-tosin.onrender.com/", {
+      const res = await axios.post("https://bachbq.onrender.com/", {
         name,
         email,
         age,
